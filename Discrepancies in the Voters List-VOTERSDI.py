@@ -10,8 +10,8 @@ for _ in range(a+b+c):
         d[k] = 1
 nl = []
 c = 0
-for k,v in d:
-    if v > 1:
+for k in d.keys():
+    if d[k] > 1:
         nl.append(k)
         c +=1
 nl.sort()

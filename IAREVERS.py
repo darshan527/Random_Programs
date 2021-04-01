@@ -6,6 +6,8 @@ for _ in range(n):
     s = input()
     for i in c:
         s = s.replace(i, ' ')
-    for i in s.split():
-        a.append(i)
-print(" ".join(reversed(a)))
+    a.append(s)
+for i in reversed(a):
+    print(" ".join(reversed(i.split())))
+
+    

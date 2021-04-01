@@ -18,5 +18,6 @@ def maxSumSubArray(arr):
 
 if __name__ == "__main__":
     maxSumSubArray(
-        list(map(int, input("Please enter the Space seperated integers").split())))
+        list(map(int, input("Please enter the Space seperated integers").split()))
+    )
     # maxSumSubArray([1, 2, -5, -4, 1, 6])

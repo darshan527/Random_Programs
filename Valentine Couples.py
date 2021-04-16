@@ -3,9 +3,9 @@ for _ in range(int(input())):
     n = int(input())
     a = list(map(int, input().split()))
     b = list(map(int, input().split()))
-    ma = 0
-    mb = 0
+    a.sort()
+    b.sort(reverse=True)
+    m = 0
     for i in range(n):
-        ma = max(ma, a[i])
-        mb = max(mb, b[i])
-    print(ma + mb)
+        m = max(m, a[i] + b[i])
+    print(m)

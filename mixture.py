@@ -4,5 +4,5 @@ for i in range(int(input())):
         print("Solution")
     elif a == 0:
         print("Liquid")
-    elif b == 0:
+    elif b ==0:
         print("Solid")
